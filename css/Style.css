@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin-top: 150px;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../images/background-galaxia-tumblr-9.jpg);
+   
+} 
+
+header{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+nav{  
+    float: right;
+}
+nav ul{
+    padding: 0;
+    margin-left:0;
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    margin: 200;
+    
+}
+nav a{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+h1:hover{
+   text-decoration: underline;
+   }
+
+h1, h2, p{
+    text-align: center;
+}
+
+p{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
+    color:beige;
+    
+}
+strong
+    {
+        color: deeppink
+    }
+
+section
+    {
+     text-align: center
+    }
+
+h2 
+    {
+    
+    font-size: 32px;
+    color:beige;
+    }
+h1 
+    {
+    font-size: 55px;
+    color:azure;
+    }
+h3 {
+    text-align: center;
+    font-size: 40px;
+    border: 1px;
+    padding: 50px;
+    margin-bottom: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    color:floralwhite; 
+}
